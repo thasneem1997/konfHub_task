@@ -112,3 +112,71 @@ h4 a {
     outline: 2px solid transparent;
     outline-offset: 2px;
 }
+
+/* media query code */
+@media screen and (max-width: 768px) {
+    .menu-item {
+        display: none;
+    }
+
+
+    .timer-container {
+        position: relative;
+        height: 440px;
+        
+        top: 68px;
+        left: 434px;
+    }
+
+    #slider {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: -442px;
+    }
+
+    .about-image {
+        width: 77% !important;
+    }
+
+    .ticket-container {
+        width: 200%;
+    }
+
+    .ticket-container2 {
+        width: 200%;
+    }
+
+    .list3-sub {
+        width: 164% !important;
+
+        margin: 22px 41px;
+
+    }
+    .content-container{
+        margin-top: 26px;
+        display: flex;
+        gap: 92px;
+        flex-direction: column;
+    }
+
+    table {
+        width: 172% !important;
+    }
+
+    .content-container2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .col2 {
+        max-width: 161% !important;
+    }
+
+    .footer-content {
+        width: 200% !important;
+    }
+    .icons2{
+        margin-left: -273px !important;
+    }
+}
