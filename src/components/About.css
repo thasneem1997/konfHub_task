@@ -1,0 +1,35 @@
+.about-container{
+    margin-left: 34px;
+    margin-top: 58px;
+}
+
+.about-container p {
+    width: 61%;
+
+}
+
+.about-image {
+    width: 37%;
+    height: 309px;
+    margin-left: -26px;
+}
+.image-container{
+display: flex;
+flex-direction: column;
+}
+table{
+    margin-top: 62px;
+    border: 1px solid;
+    width: 43%;
+    height: 129px;
+    border-collapse: collapse; 
+}
+tbody th {
+    border: 1px solid;
+    text-align: center;
+}
+td{
+    border: 1px solid;
+    text-align: center;
+ 
+}

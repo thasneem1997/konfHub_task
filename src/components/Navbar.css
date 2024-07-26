@@ -1,0 +1,41 @@
+.navbar-container{
+    display: flex;
+  
+}
+.menu-item{
+    display: flex;
+    gap: 46px;
+    margin-left: 247px;
+    margin-top: 37px;
+
+}
+.logo{
+    margin: 5px 33px;
+}
+.button-36 {
+    margin-left: 72px;
+    margin-top: -18px;
+    background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
+    border-radius: 78px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-size: 17px;
+    font-weight: 500;
+    height: 3.4rem;
+    padding: 0 1.8rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-36:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+  }
+  

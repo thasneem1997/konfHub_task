@@ -1,0 +1,114 @@
+.timer-container {
+    position: fixed;
+    height: 440px;
+    left: 1045px;
+    top: 83px;
+    margin-left: -163px;
+    margin-bottom: -94px;
+    background: linear-gradient(to top, #4c0331 0%, #37047a 100%);
+    border-radius: 5px;
+    color: white;
+}
+
+.timer-container h1 {
+    font-size: 25px;
+    text-align: center;
+    margin: 23px;
+}
+
+.timer-container h4 {
+    margin: 7px 20px;
+    font-weight: 200;
+}
+
+h4 a {
+    color: rgb(243 152 239);
+    margin-left: 21px;
+    font-weight: 400;
+
+
+}
+
+.timer-container h3 {
+    margin: 19px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+
+.timer {
+    display: flex;
+    margin: 28px 66px;
+    font-size: 31px;
+    gap: 4px;
+    font-weight: 600;
+}
+
+.sub-head {
+    display: flex;
+    gap: 20px;
+    margin: 20px 133px;
+}
+
+.btn-container {
+    margin-left: 90px;
+    display: flex;
+    gap: 30px;
+}
+
+.button-39 {
+    background-color: #FFFFFF;
+    border: 1px solid rgb(209, 213, 219);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+
+}
+
+.button-39:hover {
+    background-color: rgb(203, 45, 195);
+}
+
+.button-40 {
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+}
+
+.button-40:hover {
+    background-color: #374151;
+}
+
+.button-40:focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}

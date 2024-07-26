@@ -1,0 +1,26 @@
+.spon-img {
+    width: 28%;
+    margin-top: 21px;
+    margin-bottom: 13px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.category-img {
+    width: 26%;
+    margin-top: 20px;
+}
+
+.sponsor-title {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.hr {
+    width: 50%;
+    margin-left: 150px;
+    border: 0.1px solid #efeaea;
+    background-color: #306855;
+    margin-top: -53px;
+    margin-bottom: 38px;
+}

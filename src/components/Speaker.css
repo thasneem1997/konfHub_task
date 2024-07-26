@@ -1,0 +1,48 @@
+.speaker-container {
+    margin: 23px 34px;
+}
+.speaker-container h3{
+    color: gray;
+    font-weight: 300;
+}
+
+
+.content-container {
+    margin-top: 26px;
+    display: flex;
+    gap: 92px;
+}
+
+.content-container-img {
+    width: 315px;
+border-radius: 5px;
+
+    object-fit: cover;
+}
+.content-container h2{
+    text-align: center;
+    color: #572148;
+    margin-top: 10px;
+}
+.content-container h3{
+    text-align: center;
+    margin-top: 4px;
+    font-weight: 500;
+}
+.content-container h5{
+    text-align: center;
+margin-top: 5px;
+font-size: 15px;
+color: #685e60;
+} 
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.col1{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+border-radius: 5px;
+}

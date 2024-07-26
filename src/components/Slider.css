@@ -1,0 +1,11 @@
+.slider-caption{
+    margin-left: -649px;
+    font-size: 41px;
+    font-weight: 300;
+}
+.text{
+    font-size: 54px;
+    background: linear-gradient(rgb(21, 13, 107) 1.1%, rgb(188, 16, 80) 130.5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;}
