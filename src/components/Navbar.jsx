@@ -26,7 +26,9 @@ function Navbar() {
           <a href="#sponsors">
             <h4>Event Sponsors</h4>
           </a>
-          <a href="https://dev-accounts.konfhub.com/login"><button className="button-36" >Sign in</button></a>
+          <a href="https://dev-accounts.konfhub.com/login">
+            <button className="button-36">Sign in</button>
+          </a>
         </div>
       </div>
     </div>

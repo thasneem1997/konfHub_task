@@ -1,4 +1,3 @@
-// src/components/Slider.jsx
 import React, { useContext } from "react";
 import "./Slider.css";
 import { Apicontext } from "../context/Apicontext";

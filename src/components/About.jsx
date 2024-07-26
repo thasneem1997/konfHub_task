@@ -1,4 +1,3 @@
-// src/components/About.js
 import React, { useContext, useEffect, useState } from "react";
 import { Apicontext } from "../context/Apicontext";
 import "./About.css";

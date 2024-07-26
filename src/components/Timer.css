@@ -123,7 +123,7 @@ h4 a {
     .timer-container {
         position: relative;
         height: 440px;
-        
+
         top: 68px;
         left: 434px;
     }
@@ -152,7 +152,8 @@ h4 a {
         margin: 22px 41px;
 
     }
-    .content-container{
+
+    .content-container {
         margin-top: 26px;
         display: flex;
         gap: 92px;
@@ -176,7 +177,27 @@ h4 a {
     .footer-content {
         width: 200% !important;
     }
-    .icons2{
+
+    .icons2 {
         margin-left: -273px !important;
+    }
+
+    .about-container {
+        margin-top: 147px !important;
+
+    }
+
+    .slider {
+        width: 782px !important;
+    }
+
+    .slider-caption {
+        margin-left: -509px;
+        font-size: 33px;
+    }
+
+    .text {
+
+        font-size: 42px;
     }
 }
