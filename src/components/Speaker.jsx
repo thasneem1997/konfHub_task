@@ -32,7 +32,7 @@ function Speaker() {
           <h2>Bruce Wayne</h2>
           <h3>Chairman</h3>
           <h5>Wayne Enterprises</h5>
-          <div className="icons2">
+          <div className="icons">
             <img src="https://dev.konfhub.com/img/facebook01.svg"></img>
             <img src="https://dev.konfhub.com/img/twitter-mini.svg"></img>
 

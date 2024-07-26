@@ -15,7 +15,7 @@ function Tickets({ listdata1, listdata2, listdata3 }) {
   };
 
   return (
-    <div className="container">
+    <div className="container" id="tickets">
       <h1>TICKETS</h1>
       <br />
       {listdata1.map((item, index) => {
@@ -24,9 +24,10 @@ function Tickets({ listdata1, listdata2, listdata3 }) {
             <div key={index} className="ticket-container">
               <h3>{item.type}</h3>
               <p>{item.description}</p>
-              <a>
+              <a href="https://www.google.com/maps/search/?api=1&query=KonfHub+Technologies,+Nagavarapalya,+C+V+Raman+Nagar,+Bengaluru,+Karnataka,+India">
                 {" "}
-                <FontAwesomeIcon icon={faMapMarkerAlt} />&nbsp;  {item.location}
+                <FontAwesomeIcon icon={faMapMarkerAlt} />
+                &nbsp; {item.location}
               </a>
               <h6>{item.subcontent}</h6>
 

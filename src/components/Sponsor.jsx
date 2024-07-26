@@ -7,7 +7,7 @@ function Sponsor() {
  
   
   return (
-    <div className="container-style">
+    <div className="container-style" id="sponsors">
       <h1>{data.sponsor_section_title}</h1>
       <h3 dangerouslySetInnerHTML={{ __html:  data.sponsor_section_description }}></h3>
       <img

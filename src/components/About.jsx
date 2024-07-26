@@ -4,12 +4,12 @@ import { Apicontext } from "../context/Apicontext";
 import "./About.css";
 
 function About() {
-  const { data} = useContext(Apicontext);
+  const { data } = useContext(Apicontext);
   const [para, setPara] = useState("");
   const [image, setImage] = useState("");
   const [youtube, setYoutube] = useState("");
-  const [table,setTable]=useState("");
-    useEffect(() => {
+  const [table, setTable] = useState("");
+  useEffect(() => {
     if (data.description) {
       const parser = new DOMParser();
       const doc = parser.parseFromString(data.description, "text/html");
@@ -25,12 +25,12 @@ function About() {
   }, [data.description]);
 
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <h1>ABOUT EVENT</h1>
       <br />
       <blockquote>
-          <p dangerouslySetInnerHTML={{ __html: para}} />
-        </blockquote>
+        <p dangerouslySetInnerHTML={{ __html: para }} />
+      </blockquote>
       <div className="image-container">
         <img src={image} alt="Event Image" className="about-image" />
         <iframe
@@ -43,7 +43,7 @@ function About() {
           allowfullscreen
         ></iframe>
         <table>
-          <tbody dangerouslySetInnerHTML={{ __html: table}} />
+          <tbody dangerouslySetInnerHTML={{ __html: table }} />
         </table>
       </div>
     </div>

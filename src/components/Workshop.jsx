@@ -1,15 +1,16 @@
-import React, { useContext} from "react";
+import React, { useContext } from "react";
 import { Apicontext } from "../context/Apicontext";
 import "./Workshop.css";
 
 function Workshop() {
   const { data } = useContext(Apicontext);
-  
-     
+
   return (
-    <div className="container-style">
+    <div className="container-style" id="workshop">
       <h1>{data.workshop_section_title}</h1>
-      <h3 dangerouslySetInnerHTML={{ __html: data.workshop_section_description }}></h3>
+      <h3
+        dangerouslySetInnerHTML={{ __html: data.workshop_section_description }}
+      ></h3>
       <div className="content-container2">
         <div className="col2">
           <img

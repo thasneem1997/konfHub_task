@@ -14,20 +14,26 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div style={{ display: "flex" }}>
+      <div id="slider" style={{ display: "flex" }}>
         <Slider />
         <Timer />
-       
-       
       </div>
-      <About />
-      <List />
-      <Speaker />
-      <Workshop />
-      <Sponsor />
+      <div id="about">
+        <About />
+      </div>
+      <div id="tickets">
+        <List />
+      </div>
+      <div id="speaker">
+        <Speaker />
+      </div>
+      <div id="workshop">
+        <Workshop />
+      </div>
+      <div id="sponsors">
+        <Sponsor />
+      </div>
       <Footer />
-       
-     
     </div>
   );
 }

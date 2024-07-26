@@ -1,19 +1,22 @@
-.navbar-container{
+.navbar-container {
     display: flex;
-  
+
 }
-.menu-item{
+
+.menu-item {
     display: flex;
     gap: 46px;
     margin-left: 247px;
     margin-top: 37px;
 
 }
-.logo{
+
+.logo {
     margin: 5px 33px;
 }
+
 .button-36 {
-    margin-left: 72px;
+    margin-left: -2px;
     margin-top: -18px;
     background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
     border-radius: 78px;
@@ -32,10 +35,9 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-  }
-  
-  .button-36:hover {
+}
+
+.button-36:hover {
     box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
     transition-duration: .1s;
-  }
-  
+}
