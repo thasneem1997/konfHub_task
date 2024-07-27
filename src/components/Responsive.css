@@ -37,9 +37,11 @@
         margin: 22px 41px;
 
     }
-#speaker{
-    width: 203%;
-}
+
+    #speaker {
+        width: 203%;
+    }
+
     .content-container {
         margin-top: 26px;
         display: flex;
@@ -91,5 +93,30 @@
 
     iframe {
         width: 760px;
+    }
+
+    .content-container-img {
+        margin-left: 187px;
+        margin-top: 42px;
+    }
+
+    .content-container2-img {
+        margin-left: 213px !important;
+        margin-top: 28px;
+    }
+
+    .btn-style {
+        margin-left: 45px;
+        margin-top: 10px;
+    }
+
+    .img-style {
+        width: 10%;
+        margin-left: 251px;
+        border-radius: 67px;
+    }
+
+    .workshop-footer {
+        gap: 0px;
     }
 }
