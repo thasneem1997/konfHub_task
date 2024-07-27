@@ -1,0 +1,95 @@
+/* media query code */
+@media screen and (max-width: 768px) {
+    .menu-item {
+        display: none;
+    }
+
+
+    .timer-container {
+        position: relative;
+        height: 440px;
+
+        top: 68px;
+        left: 434px;
+    }
+
+    #slider {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: -442px;
+    }
+
+    .about-image {
+        width: 77% !important;
+    }
+
+    .ticket-container {
+        width: 272%;
+    }
+
+    .ticket-container2 {
+        width: 272%;
+    }
+
+    .list3-sub {
+        width: 249% !important;
+
+        margin: 22px 41px;
+
+    }
+#speaker{
+    width: 203%;
+}
+    .content-container {
+        margin-top: 26px;
+        display: flex;
+        gap: 92px;
+        flex-direction: column;
+    }
+
+    table {
+        width: 224% !important;
+    }
+
+    .content-container2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 216%;
+    }
+
+    .col2 {
+        max-width: 161% !important;
+    }
+
+    .footer-content {
+        width: 200% !important;
+    }
+
+    .icons2 {
+        margin-left: -273px !important;
+    }
+
+    .about-container {
+        margin-top: 147px !important;
+
+    }
+
+    .slider {
+        width: 782px !important;
+    }
+
+    .slider-caption {
+        margin-left: -509px;
+        font-size: 33px;
+    }
+
+    .text {
+
+        font-size: 42px;
+    }
+
+    iframe {
+        width: 760px;
+    }
+}

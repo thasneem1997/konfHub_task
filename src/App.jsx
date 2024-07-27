@@ -9,6 +9,7 @@ import Speaker from "./components/Speaker";
 import Workshop from "./components/Workshop";
 import Sponsor from "./components/Sponsor";
 import Footer from "./components/Footer";
+import './components/Responsive.css'
 
 function App() {
   return (
