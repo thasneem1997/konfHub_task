@@ -70,8 +70,8 @@ function Timer() {
           <p>{days}D</p>:<p>{hours}H</p>:<p>{minutes}M</p>:<p>{seconds}S</p>
         </div>
         <div className="btn-container">
-          <button className="button-40 ">Buy Now</button>
-          <button className="button-39">Officail website</button>
+         <a href="https://dev.konfhub.com/checkout/konfhub-frontend-evaluation-task"><button className="button-40 ">Buy Now</button></a> 
+         <a href="https://dev.konfhub.com/konfhub-frontend-evaluation-task"><button className="button-39">Officail website</button></a> 
         </div>
        
       </div>

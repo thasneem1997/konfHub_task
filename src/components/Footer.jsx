@@ -24,15 +24,15 @@ function Footer() {
           className="font-style"
         ></h5>
         <div className="icons2">
-          <img src="https://dev.konfhub.com/img/facebook-share.svg"></img>
-          <img
+        <a href={data.organizer_facebook_url}>  <img src="https://dev.konfhub.com/img/facebook-share.svg"></img></a> 
+        <a href={data.organizer_twitter_url}>    <img
             src="https://dev.konfhub.com/img/twitter-pro-black.svg"
             style={{ width: "30px" }}
-          ></img>
+          ></img></a> 
 
-          <img src="https://dev.konfhub.com/img/linkedin-share.svg"></img>
+        <a href={data.organizer_linkedin_url}><img src="https://dev.konfhub.com/img/linkedin-share.svg"></img></a>  
 
-          <img src="https://dev.konfhub.com/img/call-share.svg"></img>
+        <a href={data.organizer_linkedin_url}><img src="https://dev.konfhub.com/img/call-share.svg"></img></a>
           <img src="https://dev.konfhub.com/img/mail-share.svg"></img>
           <img src="https://dev.konfhub.com/img/website-black.svg"></img>
         </div>
